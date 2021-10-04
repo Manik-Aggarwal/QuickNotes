@@ -96,7 +96,7 @@ function editNotes(index){
     let addtitle = document.getElementById("addTitle");
 
     if(addtitle.value !== "" ||  addtext.value !== ""){
-        return alert("Please the clear the section.");
+        return alert("Please clear the section.");
     }
     if(notes==null){
         notesObj = [];
